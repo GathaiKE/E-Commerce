@@ -1,0 +1,206 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.logo{
+    height: 20px;
+    margin-top: 30px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo:active{
+    opacity: 0.5;
+}
+.categories{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(146, 141, 141);
+}
+.categories>span:active{
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+}
+.categories>span:hover{
+    color: #000;
+    cursor: pointer;
+    border-bottom: 2px solid hsl(26, 100%, 55%)
+}
+.categories>span{
+    padding: 10px;
+}
+.profile{
+    display: flex;
+    margin-left: 500px;
+}
+.profile>img:hover{
+    cursor: pointer;
+}
+.profile>img:active{
+    opacity: 0.5;
+}
+#profile{
+    height: 50px;
+    margin-left: 50px;
+}
+#profile:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#profile:active{
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+    opacity: 1;
+}
+.cart{
+    height: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 5%;
+    width: 800px;
+    height: auto;
+}
+.pictures{
+    align-items: center;
+    justify-content: center;
+}
+.pictures>img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.pictures>div{
+    display: flex;
+}
+.pictures>div>img{
+    width: 70px;
+    height: auto;
+    margin: 18px;
+    border-radius: 5px;
+}
+
+.pictures>div>img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.pictures>div>img:active{
+    border: 3px solid hsl(26, 100%, 55%);
+}
+.info{
+    margin-left: 70px;
+}
+.info>div>h3{
+    color: hsl(26, 100%, 55%);
+}
+.info>div>h2{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.info>div>p{
+    color: rgb(146, 141, 141);
+    width: 110%;
+}
+.cost>div{
+    display: flex;
+}
+.cost>div>span{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: hsl(25, 88%, 94%);
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.cost>span{
+    color: rgb(146, 141, 141);
+    text-decoration: line-through;
+}
+
+.add>div>span{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(248, 240, 240);
+    width: 160px;
+    margin-top: 30px;
+    border-radius: 5px;
+    /* height: 60px; */
+    
+}
+
+.icon-minus{
+    height: 5px;
+    margin-top: 7px;
+    margin-right: 50px;
+}
+.icon-minus:hover{
+    cursor: pointer;
+}
+.icon-minus:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.icon-plus{
+    height: 12px;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+.icon-plus:hover{
+    cursor: pointer;
+}
+.icon-plus:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.add>div{
+    display: flex;
+}
+.add>div>span{
+    font-weight: bolder;
+}
+button{
+    background-color: hsl(26, 100%, 55%);
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+button:active{
+    color: hsl(26, 100%, 55%);
+    background-color: #fff;
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 1;
+}
+.cart2{
+    height: 15px;
+    margin-right: 15px;
+    
+}
